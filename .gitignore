@@ -8,3 +8,4 @@ man/*
 NAMESPACE
 DESCRIPTION
 .Rbuildignore
+packages/*

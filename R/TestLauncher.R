@@ -1,10 +1,10 @@
 #' @name TestLauncher_launchMultipleTests
 #' @description executes all tests, save the results and generate a summary.
-#' @param listOfCsvConfigs: a list of dataframes, one by xmlConfig. Each 
+#' @param listOfCsvConfigs a list of dataframes, one by xmlConfig. Each 
 #'  dataframe has a list of tests.
-#' @param appLauncher: string with commands that executes the target 
+#' @param appLauncher string with commands that executes the target 
 #'  application.
-#' @param appPaths: a Key-Value list with paths.
+#' @param appPaths a Key-Value list with paths.
 #' @return a list of dataframes with a summary of test's result.
 #' @author Italo Garleni
 TestLauncher_launchMultipleTests = function(listOfCsvConfigs, appLauncher,
